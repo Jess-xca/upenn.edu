@@ -1,87 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oo</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Oo</title>
+    <link rel="icon" type="image/svg" href="./assets/favicon.svg" />
+    <link rel="stylesheet" href="./css/output.css" />
 
-  <link rel="icon" type="image/svg" href="./assets/favicon.svg" />
-  <link rel="stylesheet" href="./css/output.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font -->
 
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <!-- google font -->
+    <!-- font awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> -->
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-  <!-- font awesome -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> -->
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <div
-    class="relative h-[200px] bg-[url(https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png)]">
-    <div class="border border-slate-100 translate-4 p-10 absolute top-2 text-white w-[95%]">
-      <p class="font-semibold tracking-wide underline">
-        On Friday, February 14,2025 the University will suspend normal
-        operations for the Eagles victory parade
-      </p>
-      <p>Normal operations will resume Monday, February 17,2025</p>
-    </div>
-  </div>
-  <main class="bg-[url(../assets/avian-bird-flu.jpg)] bg-cover">
-    <div class="flex justify-between items-center p-6 text-white border-b border-slate-100">
-      <div class="lg:hidden">
-        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+  <body>
+    <div
+      class="relative h-[200px] bg-[url(https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png)]"
+    >
+      <div
+        class="border border-gray-600 translate-4 p-10 absolute top-2 text-white w-[95%]"
+      >
+        <p class="font-semibold tracking-wide underline">
+          On Friday, February 14,2025 the University will suspend normal
+          operations for the Eagles victory parade
+        </p>
+        <p>Normal operations will resume Monday, February 17,2025</p>
       </div>
+    </div>
+    <main class="bg-[url(../assets/avian-bird-flu.jpg)]">
+      <div
+        class="justify-between items-center p-6 text-white border-b border-slate-100"
+      >
+        <div class="hidden lg:flex gap-10 justify-between">
+          <img
+            src="https://www.upenn.edu/themes/custom/penn_starter/assets/img/UPenn-logo.svg"
+            alt=""
+            class="h-[150px] w-[150px]"
+          />
+          <div class="flex justify-between gap-6 items-center">
+            <div class="">
+              <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            </div>
+            <div class="flex gap-3 items-center">
+              <p>RESOURCES</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <button class="px-4 py-3 bg-red-900">GIVE TO PENN</button>
+          </div>
+        </div>
+        <div class="lg:hidden justify-between flex items-center">
+          <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          <div class="">
+            <img
+              src="https://www.upenn.edu/themes/custom/penn_starter/assets/img/UPenn-logo.svg"
+              alt=""
+              class="h-[150px] w-[150px]"
+            />
+          </div>
+          <div class="">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="hidden lg:flex items-center gap-4 lg:text-base text-white font-bold justify-end mb-30"
+      >
+        <li>
+          <a href="">ACADEMICS</a>
+          <i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li>
+          <a href="">/ ADMISSIONS & AID</a>
+        </li>
+        <li>
+          <a href="">/ ATHLETICS</a>
+        </li>
+        <li>
+          <a href="">/ RESEARCH & INNOVATION</a>
+          <i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li>
+          <a href="">/ LIFE AT PENN</a>
+          <i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li>
+          <a href="">/ ABOUT</a>
+          <i class="fa-solid fa-angle-down"></i>
+        </li>
+      </ul>
+
+      <div class="m-6 text-white py-25">
+        <h6 class="font-bold py-8">HEALTH SCIENCES</h6>
+        <p class="font-serif text-3xl font-semibold tracking-wider py-4">
+          How Penn is helping with bird flu research and disease surveillance
+        </p>
+        <p class="font-semibold lg:hidden">
+          Faculty are working on a nre vaccine for the H5N1 virus, studying its
+          transmission, and helping the state test samples from birds and
+          mammals
+        </p>
+      </div>
+    </main>
+    <!-- <div class="p-6 md:flex md:items-end font-serif"> -->
+    <div class="flex justify-between p-6">
+      <p
+        class="font-extralight border-b-[5px] border-slate-600 text-blue-950 text-3xl"
+      >
+        News
+      </p>
+      <div class="flex justify-center items-center px-6">
+        <p class="text-base border-b border-gray-600 px-2">Topics</p>
+        <img
+          src="https://www.upenn.edu/themes/custom/penn_global/assets/img/svg/icon-down-triangle.svg"
+          alt=""
+          class="h-[5px] w-[5px]"
+        />
+      </div>
+    </div>
+    <div class="grid grid-cols-2">
+      <!-- col-1 -->
+      <div class="group">
+        <img
+          src="https://penntoday.upenn.edu/sites/default/files/styles/hero/public/2025-02/pavilion-gift-teaser.jpg"
+          alt=""
+        />
+        <div class="p-6">
+          <p class="text-red-900 p-3 text-center hover:underline">
+            HEALTH SCIENCES
+          </p>
+          <p
+            class="tracking-wider text-2xl font-serif text-blue-950 group-hover:underline"
+          >
+            Catherine and Anthony Clifton make transformational gift to
+            accelerate patient care, research, and education at Penn Medicine
+          </p>
+          <div class="bg-gray-400 w-[15px] h-[5px] translate-x-50"></div>
+        </div>
+      </div>
+      <!-- col 2 -->
+      <div class="grid grid-cols-2">
+        <!-- <div class="grid grid-cols-1"> -->
+        <!-- col-2 + col-1 -->
+        <div class="group">
+          <img
+            src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/epstein-jon-teaser.jpg?h=56d0ca2e&itok=y-yTUcaz"
+            alt=""
+          />
+          <div class="p-6">
+            <p class="text-red-900 p-3 text-center hover:underline">
+              HEALTH SCIENCES
+            </p>
+            <p
+              class="tracking-wider font-serif text-blue-950 group-hover:underline"
+            >
+              Jonathan A. Epstein named head of Perelman School of Medicine and
+              Penn Health System
+            </p>
+            <!-- <div class="bg-gray-400 w-[15px] h-[5px] translate-x-50"></div> -->
+          </div>
+        </div>
+        <!-- col-2 + col-2 -->
+        <div class="group">
+          <img
+            src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/america-250-teaser-social-main.jpg?h=56d0ca2e&itok=ZJqmd08g"
+            alt=""
+          />
+          <p class="text-red-900 p-3 text-center hover:underline">
+            ARTS, HUMANITIES, & SOCIAL SCIENCES
+          </p>
+          <p class="group-hover:underline text-blue-950 font-serif">
+            Penn prepares to mark America's 250th birthday
+          </p>
+        </div>
+        <div class="flex flex-row justify-between">
+          <!-- col-3 + col-1 -->
+          <div class="group">
+            <img
+              src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/preservation-campus-teaser.jpg?h=c1e51c98&itok=3ZcGgQfb"
+              alt=""
+            />
+            <div class="p-6">
+              <p class="text-red-900 p-3 text-center hover:underline">
+                ARTS, HUMANITIES, & SOCIAL SCIENCES
+              </p>
+              <p
+                class="tracking-wider font-serif text-blue-950 group-hover:underline"
+              >
+                A rare on-campus assignment for preservation students hold
+                'small revelation'
+              </p>
+              <!-- <div class="bg-gray-400 w-[15px] h-[5px] translate-x-50"></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- col-4 + col-2 -->
+        <div class="group">
+          <img
+            src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/chan-vanessa-teaser.jpg?h=10d202d3&itok=p7_scO6y"
+            alt=""
+          />
+          <p class="text-red-900 p-3 text-center hover:underline">
+            SCIENCES & TECHNOLOGY
+          </p>
+          <p class="group-hover:underline text-blue-950 font-serif">
+            Vanessa Chan bridges the gap between innovation and the market
+          </p>
+        </div>
+        <p class="hover:underline text-red-900 text-sm text-end">
+          MORE NEWS VIA PENN TODAY
+        </p>
+      </div>
+    </div>
+    <section
+      class="p-11 flex bg-[url(https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA)]"
+    >
+      <div class="w-[45%]">
+        <div
+          class="bg-[url(https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png)] p-5"
+        >
+          <div
+            class="border flex flex-col border-gray-600 text-white text-center p-10"
+          >
+            <p class="m-4 p-2 font-semibold lg:text-sm">CAMPUS & COMMUNITY</p>
+            <p class="font-serif tracking-widest font-semibold text-xl mb-6">
+              Penn Center for Innovation celebrates 10 years
+            </p>
+            <p
+              class="border-2 self-center border-blue-100 text-center w-[20px] mb-3"
+            ></p>
+            <p>
+              The University's nexus for technology transfer supports researches
+              in their innovative efforts,from CAR T to mRNA advancements that
+              have dramatically reshaped the world.
+            </p>
+            <button
+              class="rounded-4xl self-center hover:bg-white hover:text-red-900 px-12 py-4 mt-10 border border-gray-600"
+            >
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="w-[55%]"></div>
+    </section>
+    <div class="p-6 m-10">
+      <p class="text-blue-950 lg:text-4xl font-serif mb-3">Upcoming Events</p>
+      <p
+        class="border-2 self-center border-blue-900 text-center w-[40px] mb-3"
+      ></p>
+    </div>
+    <div class="grid grid-cols-3">
+      <!-- col-1 -->
       <div>
-        <img src="https://www.upenn.edu/themes/custom/penn_starter/assets/img/UPenn-logo.svg" alt=""
-          class="h-[150px] w-[150px]" />
+        <img src="./assets/grad-center-locust-walk.jpg" alt="" />
+        <p>Talks</p>
+        <p
+          class="border-2 self-center border-blue-900 text-center w-[40px] mb-3"
+        ></p>
+        <p>Managing Presentation Anxiety</p>
+        <p>
+          Communication Within the Curriculum Associate Director Sue Weber
+          offers tips and tricks to control anxiety during public speaking. A
+          Penn graduate student ID is required
+        </p>
       </div>
-      <div class="lg:hidden">
-        <i class="fa-solid fa-bars fa-2x"></i>
+      <!-- col-2 -->
+      <div class="bg-gray-100 m-4">
+        <section class="m-6 p-5">
+          <div class="flex justify-between">
+            <div>
+              <p>Special Events</p>
+              <p
+                class="border-2 self-center border-blue-900 text-center w-[40px] mb-3"
+              ></p>
+            </div>
+            <i class="fa-regular fa-calendar"></i>
+          </div>
+          <p class="mt-5 text-blue-950 tracking-wide font-serif text-xl">
+            Historic Pennsylvania Hospital Tour
+          </p>
+          <p class="text-gray-500">
+            Holman Biotech Commons hosts a public tour of Pennsylvania Hospital,
+            the nation's first hospital. Attendees will tour the Great Court,
+            Historic Library, and Surgical Amphitheatre. Registration is
+            required.
+          </p>
+        </section>
       </div>
+      <!-- col-3 -->
+      <div class="bg-gray-100">
+        <!-- <p>Talks</p>
+        <p
+          class="border-2 self-center border-blue-900 text-center w-[40px] mb-3"
+        ></p>
+      </div> -->
     </div>
-
-    <div class="m-6 text-white">
-      <h6 class="font-bold py-8">HEALTH SCIENCES</h6>
-      <p class="font-serif text-3xl font-semibold tracking-wider py-4">
-        How Penn is helping with bird flu research and disease surveillance
-      </p>
-      <p class="font-semibold lg:hidden">
-        Faculty are working on a nre vaccine for the H5N1 virus, studying
-        its transmission, and helping the state test samples from birds and
-        mammals
-      </p>
-    </div>
-  </main>
-  <!-- <div class="p-6 md:flex md:items-end font-serif"> -->
-  <div class="flex justify-between p-6">
-    <p class="font-extralight border-b-[5px] border-slate-600 text-blue-950 text-3xl">News</p>
-    <div class="flex justify-center items-center px-6">
-      <p class="text-base border-b border-blue-300 px-2">Topics</p>
-      <img src="https://www.upenn.edu/themes/custom/penn_global/assets/img/svg/icon-down-triangle.svg" alt=""
-        class="h-[5px] w-[5px]" />
-    </div>
-
-<div class="grid grid-cols-2">
-
-</div>
-
-
-
-
-    <!-- </div> -->
-
-
 
     <script src="./js/app.js"></script>
-</body>
-
+  </body>
 </html>
